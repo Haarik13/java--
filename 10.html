@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type ="text/javascript">
+var txt=""
+function message()
+{try
+{
+addalert("welcome guest!")
+catch(err)
+{
+txt="there was an error on this page.\n\n"
+txt+= "cick ok to continue viewing this page.\n"
+txt+="or cancel to retirn to the home page.\n\n"
+if (!conferm(txt))
+{
+document.location.herf= "url"
+}
+}
+}
+}
+</script>  </head>
+<body>
+  <input type="button" value = "view message" onclick ="message()"/>
+</body></html>
